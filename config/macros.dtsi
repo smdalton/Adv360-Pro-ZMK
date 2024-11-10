@@ -1,3 +1,9 @@
+macro_search: macro_search{
+compatible = "zmk,behavior-macro";
+label = "macro_search";
+#binding-cells = <0>;
+bindings = <&kp LGUI>, <&kp LEFT_SHIFT>, <&kp F>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
